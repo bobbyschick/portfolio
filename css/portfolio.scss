@@ -1,0 +1,94 @@
+//Typograhpy
+@import "fonts.scss";
+@import "colors.scss";
+
+.header {
+  display: flex;
+  justify-content: center;
+
+  &__navbar {
+    list-style-type: none;
+    position: absolute;
+
+
+    &>li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+  }
+
+  &__image {
+    background-image: url("../images/header.jpg");
+    height: 540px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    @include HeaderTitle;
+  }
+
+  &__square {
+
+  }
+}
+
+.introduction {
+
+  &__image {
+
+  }
+
+  &__paragraph {
+
+  }
+
+  &__title {
+    @include Title;
+  }
+}
+
+.skills {
+
+  &__title {
+    @include Title;
+  }
+
+  &__percentage {
+
+  }
+
+  &__circle {
+
+    &>h2 {
+
+    }
+  }
+}
+
+.projects {
+
+  &__title {
+    @include Title;
+  }
+
+  &__popups {
+
+  }
+
+  &__image {
+
+  }
+
+  &__name {
+
+  }
+
+}
+
+.footer {
+
+}

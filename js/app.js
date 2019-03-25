@@ -1,0 +1,1 @@
+var x=test(6,4),y=test(5,5);function test(t,e){return t*e}document.getElementById("test1").innerHTML=x,document.getElementById("test2").innerHTML=y;

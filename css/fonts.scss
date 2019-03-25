@@ -1,0 +1,22 @@
+//Webfonts
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans');
+
+@mixin test {
+  font-family: Open Sans;
+  font-size: 14px;
+  color: orange;
+}
+
+@mixin HeaderTitle {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 72px;
+  color: $white;
+}
+
+@mixin Title {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 35px;
+  color: $black;
+}
